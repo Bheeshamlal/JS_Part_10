@@ -40,6 +40,8 @@ for(btn of btns){
    // console.dir(btn);
     btn.addEventListener("click", sayHello);
     btn.addEventListener("click", sayName);
+    btn.addEventListener("dblclick", dblClicked);
+    
 }
 
 function sayHello(){
@@ -48,4 +50,8 @@ function sayHello(){
 
 function sayName(){
     console.log("Bheesham");
+}
+
+function dblClicked(){
+    console.log("you double clicked");
 }
